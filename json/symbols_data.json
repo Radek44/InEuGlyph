@@ -1,102 +1,131 @@
 {
-    "p": {
-        "name": "Peta",
-        "description": "Voiceless bilabial plosive",
-        "IPA": "p",
-        "writing": "Draw a vertical line from top to bottom, then draw a curve across the top third, connecting to the vertical line on both ends.",
-        "examples": {
-          "English": "p in 'pat'",
-          "French": "p in 'patte'",
-          "Polish": "p in 'patyk'",
-          "Russian": "п in 'папа'",
-          "Norwegian": "p in 'papir'",
-          "Irish": "p in 'peann'",
-          "Persian": "پ in 'پاپ'",
-          "Hindi": "प in 'पाप'"
-        }
-      },    
-      "b": {
-        "name": "Beta",
-        "description": "Voiced bilabial plosive",
-        "IPA": "b",
-        "writing": "Draw a vertical line from top to bottom, then draw a curve across the top third, connecting to the vertical line on both ends. Add a small circle below the curve in the middle.",
-        "examples": {
-          "English": "b in 'bat'",
-          "French": "b in 'bateau'",
-          "Polish": "b in 'bata'",
-          "Russian": "б in 'баба'",
-          "Norwegian": "b in 'ball'",
-          "Irish": "b in 'bád'",
-          "Persian": "ب in 'باب'",
-          "Hindi": "ब in 'बाबा'"
-        }
-      },
-    "t": {
-        "name": "Teta",
-        "description": "Voiceless alveolar plosive",
-        "IPA": "t",
-        "writing": "Draw a vertical line from top to bottom, then draw a horizontal line across the top third.",
-        "examples": {
-          "English": "t in 'top'",
-          "French": "t in 'tarte'",
-          "Polish": "t in 'tak'",
-          "Russian": "т in 'так'",
-          "Norwegian": "t in 'tak'",
-          "Irish": "t in 'tá'",
-          "Persian": "ت in 'تاپ'",
-          "Hindi": "त in 'ताप'"
-        }
-      },
-      "d": {
-        "name": "Delta",
-        "description": "Voiced alveolar plosive",
-        "IPA": "d",
-        "writing": "Draw a vertical line from top to bottom, then draw a horizontal line across the top third, and add a small circle below the horizontal line in the middle.",
-        "examples": {
-          "English": "d in 'dog'",
-          "French": "d in 'dans'",
-          "Polish": "d in 'dom'",
-          "Russian": "д in 'дом'",
-          "Norwegian": "d in 'dør'",
-          "Irish": "d in 'deas'",
-          "Persian": "د in 'دوگ'",
-          "Hindi": "द in 'दोग'"
-        }
-      },
-      
-        "k": {
-          "name": "Kappa",
-          "description": "Voiceless velar plosive",
-          "IPA": "k",
-          "writing": "Draw a vertical line from top to bottom. Starting from the middle, draw two diagonal lines, one upwards and one downwards.",
-          "examples": {
-            "English": "k in 'kite'",
-            "French": "k in 'kilo'",
-            "Polish": "k in 'kot'",
-            "Russian": "к in 'кот'",
-            "Norwegian": "k in 'katt'",
-            "Irish": "c in 'cat'",
-            "Persian": "ک in 'کتاب'",
-            "Hindi": "क in 'कलम'"
-          }
-        },
-        "g": {
-          "name": "Gamma",
-          "description": "Voiced velar plosive",
-          "IPA": "g",
-          "writing": "Draw a vertical line from top to bottom. Starting from the middle, draw two diagonal lines, one upwards and one downwards. Add a circle at the intersection of the diagonal lines.",
-          "examples": {
-            "English": "g in 'goat'",
-            "French": "g in 'gare'",
-            "Polish": "g in 'gory'",
-            "Russian": "г in 'гора'",
-            "Norwegian": "g in 'gå'",
-            "Irish": "g in 'gaoth'",
-            "Persian": "گ in 'گربه'",
-            "Hindi": "ग in 'गाय'"
-          }
-        }
-      
-      
-  }
-  
+  "p": {
+    "name": "Peta",
+    "description": "Voiceless bilabial plosive",
+    "IPA": "p",
+    "writing": "Draw a vertical line from top to bottom, then draw a curve across the top third, connecting to the vertical line on both ends.",
+    "examples": {
+      "English": "p in 'pat'",
+      "French": "p in 'patte'",
+      "Polish": "p in 'patyk'",
+      "Russian": "п in 'папа'",
+      "Norwegian": "p in 'papir'",
+      "Irish": "p in 'peann'",
+      "Persian": "پ in 'پاپ'",
+      "Hindi": "प in 'पाप'"
+    }
+  },
+  "b": {
+    "name": "Beta",
+    "description": "Voiced bilabial plosive",
+    "IPA": "b",
+    "writing": "Draw a vertical line from top to bottom, then draw a curve across the top third, connecting to the vertical line on both ends. Add a small circle below the curve in the middle.",
+    "examples": {
+      "English": "b in 'bat'",
+      "French": "b in 'bateau'",
+      "Polish": "b in 'bata'",
+      "Russian": "б in 'баба'",
+      "Norwegian": "b in 'ball'",
+      "Irish": "b in 'bád'",
+      "Persian": "ب in 'باب'",
+      "Hindi": "ब in 'बाबा'"
+    }
+  },
+  "t": {
+    "name": "Teta",
+    "description": "Voiceless alveolar plosive",
+    "IPA": "t",
+    "writing": "Draw a vertical line from top to bottom, then draw a horizontal line across the top third.",
+    "examples": {
+      "English": "t in 'top'",
+      "French": "t in 'tarte'",
+      "Polish": "t in 'tak'",
+      "Russian": "т in 'так'",
+      "Norwegian": "t in 'tak'",
+      "Irish": "t in 'tá'",
+      "Persian": "ت in 'تاپ'",
+      "Hindi": "त in 'ताप'"
+    }
+  },
+  "d": {
+    "name": "Delta",
+    "description": "Voiced alveolar plosive",
+    "IPA": "d",
+    "writing": "Draw a vertical line from top to bottom, then draw a horizontal line across the top third, and add a small circle below the horizontal line in the middle.",
+    "examples": {
+      "English": "d in 'dog'",
+      "French": "d in 'dans'",
+      "Polish": "d in 'dom'",
+      "Russian": "д in 'дом'",
+      "Norwegian": "d in 'dør'",
+      "Irish": "d in 'deas'",
+      "Persian": "د in 'دوگ'",
+      "Hindi": "द in 'दोग'"
+    }
+  },
+
+  "k": {
+    "name": "Kappa",
+    "description": "Voiceless velar plosive",
+    "IPA": "k",
+    "writing": "Draw a vertical line from top to bottom. Starting from the middle, draw two diagonal lines, one upwards and one downwards.",
+    "examples": {
+      "English": "k in 'kite'",
+      "French": "k in 'kilo'",
+      "Polish": "k in 'kot'",
+      "Russian": "к in 'кот'",
+      "Norwegian": "k in 'katt'",
+      "Irish": "c in 'cat'",
+      "Persian": "ک in 'کتاب'",
+      "Hindi": "क in 'कलम'"
+    }
+  },
+  "g": {
+    "name": "Gamma",
+    "description": "Voiced velar plosive",
+    "IPA": "g",
+    "writing": "Draw a vertical line from top to bottom. Starting from the middle, draw two diagonal lines, one upwards and one downwards. Add a circle at the intersection of the diagonal lines.",
+    "examples": {
+      "English": "g in 'goat'",
+      "French": "g in 'gare'",
+      "Polish": "g in 'gory'",
+      "Russian": "г in 'гора'",
+      "Norwegian": "g in 'gå'",
+      "Irish": "g in 'gaoth'",
+      "Persian": "گ in 'گربه'",
+      "Hindi": "ग in 'गाय'"
+    }
+  },
+  "n": {
+    "name": "Nen",
+    "description": "Alveolar nasal",
+    "IPA": "n",
+    "writing": "Draw a horizontal line from left to right, then draw a vertical line from the right end of the horizontal line to the bottom left.",
+    "examples": {
+      "English": "n in 'name'",
+      "French": "n in 'nager'",
+      "Polish": "n in 'noga'",
+      "Russian": "н in 'нога'",
+      "Norwegian": "n in 'navn'",
+      "Irish": "n in 'nasc'",
+      "Persian": "ن in 'نام'",
+      "Hindi": "न in 'नाम'"
+    }
+  }, 
+  "m": {
+    "name": "Mem",
+    "description": "Bilabial nasal",
+    "IPA": "m",
+    "writing": "Draw a vertical line from top to bottom, then draw a diagonal line from the top of the vertical line to the center. Draw another diagonal line from the center to the top of another vertical line on the right. Finally, draw that vertical line from top to bottom.",
+    "examples": {
+      "English": "m in 'man'",
+      "French": "m in 'maison'",
+      "Polish": "m in 'mama'",
+      "Russian": "м in 'мама'",
+      "Norwegian": "m in 'mann'",
+      "Irish": "m in 'madra'",
+      "Persian": "م in 'مادر'",
+      "Hindi": "म in 'मान'"
+    }
+  }  
+}
