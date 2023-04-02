@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.symbol-container {
+  display: inline-block;
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.svg-container {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Add these new rules */
+.symbol-info {
+  display: inline-block;
+  width: 400px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+/* Add these styles for the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}

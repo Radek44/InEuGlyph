@@ -1,0 +1,19 @@
+[
+    {
+      "name": "p",
+      "fileName": "svg/p.svg",
+      "description": "Voiceless bilabial plosive",
+      "ipa": "p",
+      "examples": {
+        "English": "p in 'pat'",
+        "French": "p in 'patte'",
+        "Polish": "p in 'patyk'",
+        "Russian": "п in 'папа'",
+        "Norwegian": "p in 'papir'",
+        "Irish": "p in 'peann'",
+        "Persian": "پ in 'پاپ'"
+      }
+    }
+    
+  ]
+  
