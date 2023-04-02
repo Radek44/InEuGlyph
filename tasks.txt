@@ -1,0 +1,26 @@
+Generate base consonant symbols using SVG code. Include a unique name, description, corresponding IPA representation, equivalent sounds in various Indo-European languages, and a description of how to write the symbol in English for each symbol.
+1.1 p, b
+1.2 t, d
+1.3 k, g
+1.4 m, n
+1.5 ŋ, f
+1.6 v, θ
+1.7 ð, s
+1.8 ʃ, ʒ, ɕ, ʑ
+1.9 ʒ, x
+1.10 ɣ, h
+1.11 tʃ, dʒ
+1.12 l, r
+1.13 j, w
+
+Generate base vowel symbols using SVG code. Include a unique name, description, corresponding IPA representation, equivalent sounds in various Indo-European languages, and a description of how to write the symbol in English for each symbol.
+2.1 i, e
+2.2 ɛ, y
+2.3 u, o
+2.4 ɔ, ɒ
+
+Generate derived syllable symbols by combining base consonants and vowels. Include a unique name, description, corresponding IPA representation, equivalent sounds in various Indo-European languages, and a description of how to write the symbol in English for each symbol.
+
+Generate symbols for phonetic variations. Include a unique name, description, corresponding IPA representation, equivalent sounds in various Indo-European languages, and a description of how to write the symbol in English for each symbol.
+
+Generate punctuation marks using SVG code. Include a unique name, description, corresponding IPA representation, equivalent usage in various Indo-European languages, and a description of how to write the symbol in English for each symbol.

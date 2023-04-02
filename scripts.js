@@ -4,12 +4,13 @@ function loadSymbols() {
   fetch('json/symbols_data.json')
     .then(response => response.json())
     .then(symbolsData => {
-      symbolsData.forEach(symbol => {
+      Object.keys(symbolsData).forEach(key => {
+        const symbol = symbolsData[key];
         const symbolContainer = document.createElement("div");
         symbolContainer.className = "symbol-container";
 
         // Load the SVG from the file
-        fetch(symbol.fileName)
+        fetch(`svg/${key}.svg`)
           .then(response => response.text())
           .then(svgData => {
             const svgContainer = document.createElement("div");
@@ -20,7 +21,7 @@ function loadSymbols() {
             const symbolInfo = document.createElement("div");
             symbolInfo.className = "symbol-info";
 
-            symbolInfo.innerHTML = `<strong>${symbol.name}</strong> - ${symbol.description}<br>IPA: ${symbol.ipa}<br>`;
+            symbolInfo.innerHTML = `<strong>${symbol.name}</strong> - ${symbol.description}<br>IPA: ${symbol.IPA}<br>Writing: ${symbol.writing}<br>`;
 
             // Add this code to create a table for examples
             const examplesTable = document.createElement("table");

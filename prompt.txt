@@ -1,0 +1,24 @@
+Overall Goal: We are working on creating a new syllabic alphabet adapted to most Indo-European languages, using SVG code to represent the symbols. 
+The alphabet will consist of base symbols for consonants and vowels, derived symbols for syllables, symbols for phonetic variations, and punctuation marks. 
+The symbols will follow a consistent method for deriving syllables from base consonant symbols by adding corresponding vowel symbols as modifiers. 
+Each symbol will be accompanied by a unique name, description, corresponding representation in the International Phonetic Alphabet (IPA), equivalent sounds in at least one representative of each major family of Indo-European languages (including languages with different scripts), and a description of how to write the symbol in English. 
+The symbols will be as simple as possible in their shapes. The symbols will be stored as separate SVG files and their metadata in a JSON file.
+
+Alphabet:
+
+Base consonants: p, b, t, d, k, g, m, n, ŋ, f, v, θ, ð, s, z, ʃ, ʒ, x, ɣ, h, tʃ, dʒ, l, r, j, w
+Base vowels: i, e, ɛ, y, ə, u, o, ɔ, a
+Additional symbols for specific phonetic variations and language-specific sounds will be created as needed.
+Punctuation marks will be included as well.
+Rules:
+
+Each symbol will be created using SVG code, with a simple and easy-to-write design.
+The alphabet will be syllabic, with consonants and vowels combined to form syllables.
+The method for deriving syllables will be consistent, adding corresponding vowel symbols as modifiers to the base consonant symbols.
+Each symbol will have a unique name, description, IPA representation, and examples in various Indo-European languages.
+The alphabet will cover major families of Indo-European languages, including languages with different scripts.
+A description of how to write the symbol in English will be included for each symbol.
+Use this compact representation and the rules as a reference while generating the alphabet to ensure you cover all the required symbols and follow the defined rules.
+
+
+Task 1: Generate base consonant symbols using SVG code for the following consonants: p, b, t, d, k, g, m, n, ŋ, f, v, θ, ð, s, z, ʃ, ʒ, x, ɣ, h, tʃ, dʒ, l, r, j, w. Include a unique name, description, corresponding IPA representation, equivalent sounds in various Indo-European languages, and a description of how to write the symbol in English for each symbol. Save the SVG files in the 'svg' folder and update the 'symbols_data.json' file in the 'json' folder with the symbol metadata.
